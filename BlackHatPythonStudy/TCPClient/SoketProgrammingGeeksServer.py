@@ -48,7 +48,8 @@ print("The socket has successfully connected to google on port : %s"% hostIp)
 """
 
 #Server Program
-"""
+
+
 #Creating socket object
 s = socket.socket()
 print("Socket successfully created")
@@ -75,21 +76,3 @@ while True:
     c.send("Thank you for connecting".encode())
     #Close the connection with the client
     c.close() 
-"""
-
-#Client Program
-
-# Create a socket object 
-s = socket.socket()          
-  
-# Define the port on which you want to connect 
-port = 12345                
-  
-# connect to the server on local computer 
-s.connect(('127.0.0.1', port)) 
-  
-# receive data from the server 
-print(s.recv(1024))
-
-# close the connection 
-s.close()    
