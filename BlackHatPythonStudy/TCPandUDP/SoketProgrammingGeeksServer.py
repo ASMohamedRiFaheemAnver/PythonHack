@@ -1,6 +1,6 @@
 
 #What is socket programming in python
-#https://www.geeksforgeeks.org/socket-programming-python/
+#From https://www.geeksforgeeks.org/socket-programming-python/
 
 import socket
 import sys
