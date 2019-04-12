@@ -1,4 +1,4 @@
-#From black hat python
+#From black hat python 
 import socket
 
 targetHost = "www.google.com"
