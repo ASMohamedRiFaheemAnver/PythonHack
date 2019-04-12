@@ -65,7 +65,7 @@ s.listen(5)
 print("Socket is listening")
 
 #A forever loop
-while True:
+while(True):
     #Establish connection with client
     c, addr = s.accept()
     print("Got connction from", (addr))
