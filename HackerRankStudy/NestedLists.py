@@ -33,7 +33,7 @@ newList = []
 
 for i in range(x):
     name = input()
-    mark = input()
+    mark = float(input())
 
     temp_list = [name, mark]
 
@@ -42,5 +42,20 @@ for i in range(x):
 
 newList.sort(key = lambda xi: xi[1])
 
-print(newList[1][0])
-print(newList[2][0])
+lowest = newList[0][1]
+
+secondLowest = []
+
+second = -1
+
+for i in range(x):
+    if lowest < newList[i][1] and second == -1:
+        second = newList[i][1]
+
+    if second == (newList[i][1]):
+        secondLowest.append(newList[i])
+
+secondLowest.sort(key = lambda xi: xi[0])
+
+for x in secondLowest:
+    print(x[0])
