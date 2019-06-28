@@ -1,4 +1,4 @@
-#https://www.hackerrank.com/challenges/python-print/problem
+# https://www.hackerrank.com/challenges/python-print/problem
 if __name__ == '__main__':
     n = int(input())
 
